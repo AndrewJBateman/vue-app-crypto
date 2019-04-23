@@ -1,6 +1,6 @@
 # Vue3 App Crypto
 
-* Vue app to get crypto currency price data from a CryptoCompare API.
+* Vue3 app to get crypto currency price data from a [CryptoCompare API](https://min-api.cryptocompare.com/).
 
 **Note:** to open web links in a new window use: _ctrl+click on link_
 
@@ -43,9 +43,28 @@ Run `npm run serve` then navigate to `http://localhost:8080/`. The app will auto
 
 ## Code Examples
 
+```javascript
+
+* Extract from Hello.vue: function to get cryptocurrency data from the API 
+
+	created () {
+		const fsymsList = 'BTC,XRP,BCH,ETH,ZEC,EOS,XMR,ETC,LTC,DASH,QTUM,NEO,XLM,TRX,ADA,BTS,USDT,XUC,PAX,IOT';
+
+	  axios.get('https://min-api.cryptocompare.com/data/pricemulti?fsyms=' + fsymsList + '&tsyms=USD')
+	  .then(response => {
+		  this.cryptos = response.data
+		  console.log(response)
+	  })
+	  .catch(e => {
+		  this.errors.push(e)
+	  });
+  }
+
+```
+
 ## Features
 
-* updated to Vue3.
+* uses the new Vue3 CLI.
 
 ## Status & To-Do List
 
