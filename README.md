@@ -45,7 +45,7 @@ Run `npm run serve` then navigate to `http://localhost:8080/`. The app will auto
 
 ```javascript
 
-* Extract from Hello.vue: function to get cryptocurrency data from the API 
+* Extract from Hello.vue: function to get cryptocurrency data from the API
 
 	created () {
 		const fsymsList = 'BTC,XRP,BCH,ETH,ZEC,EOS,XMR,ETC,LTC,DASH,QTUM,NEO,XLM,TRX,ADA,BTS,USDT,XUC,PAX,IOT';
@@ -68,7 +68,7 @@ Run `npm run serve` then navigate to `http://localhost:8080/`. The app will auto
 
 ## Status & To-Do List
 
-* Status: Simple working app.
+* Status: Working.
 
 * To-Do: add functionality.
 
@@ -78,4 +78,4 @@ Run `npm run serve` then navigate to `http://localhost:8080/`. The app will auto
 
 ## Contact
 
-Created by [ABateman](https://www.andrewbateman.org) - feel free to contact me!!!
+Repo created by [ABateman](https://www.andrewbateman.org) - feel free to contact me
