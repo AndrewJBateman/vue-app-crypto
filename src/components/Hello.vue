@@ -1,7 +1,7 @@
 <template>
   <div class="hello">
-		<h1>CryptoCompare API Results</h1>
-    <div id="crypto-container" v-for="(value, key) in cryptos">
+    <h1>CryptoCompare API Results</h1>
+    <div id="crypto-container" v-for="(value, key) in cryptos" v-bind:key="key">
       <span class="left">{{ key }}</span>
       <span class="right">${{ value.USD }}</span>
     </div>
@@ -9,26 +9,31 @@
 </template>
 
 <script>
-import axios from 'axios'
+import axios from "axios";
 
 export default {
-  name: 'hello',
+  name: "hello",
   data: () => ({
-		cryptos: [],
-		errors: []
-	}),
+    cryptos: [],
+    errors: []
+  }),
 
-	created () {
-		const fsymsList = 'BTC,XRP,BCH,ETH,ZEC,EOS,XMR,ETC,LTC,DASH,QTUM,NEO,XLM,TRX,ADA,BTS,USDT,XUC,PAX,IOT';
+  created() {
+    const fsymsList =
+      "BTC,XRP,BCH,ETH,ZEC,EOS,XMR,ETC,LTC,DASH,QTUM,NEO,XLM,TRX,ADA,BTS,USDT,XUC,PAX,IOT";
 
-	  axios.get('https://min-api.cryptocompare.com/data/pricemulti?fsyms=' + fsymsList + '&tsyms=USD')
-	  .then(response => {
-		  this.cryptos = response.data
-		  console.log(response)
-	  })
-	  .catch(e => {
-		  this.errors.push(e)
-	  });
+    axios
+      .get(
+        "https://min-api.cryptocompare.com/data/pricemulti?fsyms=" +
+          fsymsList +
+          "&tsyms=USD"
+      )
+      .then(response => {
+        this.cryptos = response.data;
+      })
+      .catch(error => {
+        this.errors.push(error);
+      });
   }
 };
 </script>
@@ -40,7 +45,7 @@ body {
 }
 
 div#crypto-container {
-  background:white;
+  background: white;
   width: 70%;
   margin: 0 auto 4px auto;
   padding: 1em;
@@ -48,11 +53,11 @@ div#crypto-container {
 }
 
 span.left {
-	float:left;
+  float: left;
   font-weight: bold;
 }
 
 span.right {
-  float:right;
+  float: right;
 }
 </style>

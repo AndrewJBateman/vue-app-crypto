@@ -6,14 +6,17 @@
 
 ## :page_facing_up: Table of contents
 
-* [General info](#general-info)
-* [Screenshots](#screenshots)
-* [Technologies](#technologies)
-* [Setup](#setup)
-* [Features](#features)
-* [Status](#status)
-* [Inspiration](#inspiration)
-* [Contact](#contact)
+* [:zap: Vue3 App Crypto](#zap-vue3-app-crypto)
+	* [:page_facing_up: Table of contents](#page_facing_up-table-of-contents)
+	* [:books: General info](#books-general-info)
+	* [:camera: Screenshots](#camera-screenshots)
+	* [:signal_strength: Technologies](#signal_strength-technologies)
+	* [:floppy_disk: Setup](#floppy_disk-setup)
+	* [:computer: Code Examples](#computer-code-examples)
+	* [:cool: Features](#cool-features)
+	* [:clipboard: Status & To-Do List](#clipboard-status--to-do-list)
+	* [:clap: Inspiration](#clap-inspiration)
+	* [:envelope: Contact](#envelope-contact)
 
 ## :books: General info
 
@@ -22,19 +25,24 @@
 
 ## :camera: Screenshots
 
-![Example screenshot](./img/api-cryptos.png)
+![Example screenshot](./img/pc.png)
+![Example screenshot](./img/mobile.png)
 
 ## :signal_strength: Technologies
 
-* [Vue framework v3](https://vuejs.org/)
+* [Vue v2.6](https://vuejs.org/) framework
 * [Vue Router v3](https://router.vuejs.org/) the official router for Vue.js
 * [Vue CLI v3](https://cli.vuejs.org/)
-* [Axios v0.18.0](https://github.com/axios/axios), a promise-based http client, is used to consume API data.
+* [Axios v0.21.0](https://github.com/axios/axios), a promise-based http client, is used to consume API data.
 * [Vue DevTools extension for Chrome](https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd).
 
 ## :floppy_disk: Setup
 
-Run `npm run serve` then navigate to `http://localhost:8080/`. The app will automatically reload if you change any of the source files.
+* Run `npm i` to install dependencies
+* Run `npm run lint` to lint and autofix files
+* Run `npm run test` to runs tests - no tests specified
+* Run `npm run serve` then navigate to `http://localhost:8080/`. The app will automatically reload if you change any of the source files.
+* Run `npm run build` to compile and minify for production
 
 ## :computer: Code Examples
 
