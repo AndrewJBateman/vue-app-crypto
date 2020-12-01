@@ -1,12 +1,12 @@
-# :zap: Vue3 App Crypto
+# :zap: Vue App Crypto
 
-* Vue3 app to get crypto currency price data from a [CryptoCompare API](https://min-api.cryptocompare.com/).
+* Vue app to get crypto currency price data from a [CryptoCompare API](https://min-api.cryptocompare.com/).
 
 **Note:** to open web links in a new window use: _ctrl+click on link_
 
 ## :page_facing_up: Table of contents
 
-* [:zap: Vue3 App Crypto](#zap-vue3-app-crypto)
+* [:zap: Vue App Crypto](#zap-vue-app-crypto)
 	* [:page_facing_up: Table of contents](#page_facing_up-table-of-contents)
 	* [:books: General info](#books-general-info)
 	* [:camera: Screenshots](#camera-screenshots)
@@ -32,7 +32,7 @@
 
 * [Vue v2.6](https://vuejs.org/) framework
 * [Vue Router v3](https://router.vuejs.org/) the official router for Vue.js
-* [Vue CLI v3](https://cli.vuejs.org/)
+* [Vue CLI v3](https://cli.vuejs.org/) interface
 * [Axios v0.21.0](https://github.com/axios/axios), a promise-based http client, is used to consume API data.
 * [Vue DevTools extension for Chrome](https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd).
 
@@ -72,7 +72,7 @@
 ## :clipboard: Status & To-Do List
 
 * Status: Working.
-* To-Do: add functionality.
+* To-Do: add functionality. Try deploy again with correct build path
 
 ## :clap: Inspiration
 
