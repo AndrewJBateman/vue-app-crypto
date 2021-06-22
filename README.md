@@ -1,8 +1,12 @@
 # :zap: Vue App Crypto
 
 * Vue app to get crypto currency price data from a [CryptoCompare API](https://min-api.cryptocompare.com/).
+* **Note:** to open web links in a new window use: _ctrl+click on link_
 
-**Note:** to open web links in a new window use: _ctrl+click on link_
+![GitHub repo size](https://img.shields.io/github/repo-size/AndrewJBateman/vue-app-crypto?style=plastic)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/AndrewJBateman/vue-app-crypto?style=plastic)
+![GitHub Repo stars](https://img.shields.io/github/stars/AndrewJBateman/vue-app-crypto?style=plastic)
+![GitHub last commit](https://img.shields.io/github/last-commit/AndrewJBateman/vue-app-crypto?style=plastic)
 
 ## :page_facing_up: Table of contents
 
@@ -30,7 +34,7 @@
 
 ## :signal_strength: Technologies
 
-* [Vue v2.6](https://vuejs.org/) framework
+* [Vue v2](https://vuejs.org/) framework
 * [Vue Router v3](https://router.vuejs.org/) the official router for Vue.js
 * [Vue CLI v3](https://cli.vuejs.org/) interface
 * [Axios v0.21.0](https://github.com/axios/axios), a promise-based http client, is used to consume API data.
@@ -78,6 +82,11 @@
 
 * [Coursetro Vue.js CryptoCurrency Tutorial - Display Exchange Data with an API](https://www.youtube.com/watch?v=S0Zznlv1qnI)
 
+## :file_folder: License
+
+* This project is licensed under the terms of the MIT license.
+
 ## :envelope: Contact
 
-* Repo created by [ABateman](https://www.andrewbateman.org) - you are welcome to [send me a message](https://andrewbateman.org/contact)
+* Repo created by [ABateman](https://github.com/AndrewJBateman), email: gomezbateman@yahoo.com
+
